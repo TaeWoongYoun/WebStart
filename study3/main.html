@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position을 이용해서 간단한 사이트 만들기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <h3>Buy Our Shoes!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Blanditiis nonlaudantium unde distinctio</p>
+        <button>Buy Now!!</button>
+    </main>
+    <div class="Box">
+        <h4>How we design our shoes</h4>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolorem aliquid, libero ut distinctio tempora quae atque
+            consectetur dolores,sapiente cumque animi provident.
+        </p>
+    </div>
+
+    <style>
+        body{
+    margin: 0;
+}
+  
+main{
+    width: 100%;
+    height: 500px;
+    /* 배경에 이미지 넣기 */
+    background-image: url(https://codingapple.com/wp-content/uploads/2019/06/shoes.jpg);
+    /* 배경으로 화면 꽉 채우기 */
+    background-size: cover;
+    /* 배경이미지가 반복되는게 싫으면 */
+    background-repeat: no-repeat;
+    /* 가운데정렬 */
+    background-position: center;
+    /* margin collapse 방지용 */
+    padding: 1px;
+    position: relative;
+    text-align: center;
+}
+
+main h3{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 800;
+    /* 부모요소 아래에 가운데정렬 시키기 
+    width는 적당히 주기*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    /* 부모요소 위에서 여백주기 */
+    top: 20%;
+}
+
+main p{
+    color: aliceblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    top: 35%;
+}
+
+main button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    top: 60%;
+}
+
+.Box{
+    width: 60%;
+    /* 반응형에서의 최대값 설정 */
+    max-width: 400px;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    padding: 20px;
+    margin: auto;
+}
+
+.Box p{
+    font-size: 15px;
+}
+    </style>
+
+</body>
+</html>

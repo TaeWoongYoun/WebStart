@@ -1,0 +1,22 @@
+nav{
+    width: 510px;
+    height: 70px;
+    background: greenyellow;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 60px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}

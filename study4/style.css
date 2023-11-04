@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+main{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5%;
+}
+
+.LoginPage{
+    background-color: #eee;
+    padding: 30px;
+    width: 50%;
+    height: 50%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.MainBox{
+    padding: 5px;
+}
+
+.area{
+    width: 100%;
+    resize: none;
+}
+
+.email{
+    width: 100%;
+    padding: 5px;
+    font-style: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.leftBox , .rightBox{
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+footer{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10%;
+}
+
+.sex{
+    float: left;
+    width: 20%;
+    margin-right: 10%;
+    padding: 1%;
+}
+
+.sub{
+    float: left;
+    width: 40%;
+}
+
+
+
+button{
+    width: 30%;
+    height: 40%;
+    float: left;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: gold;
+    padding: 1%;
+}

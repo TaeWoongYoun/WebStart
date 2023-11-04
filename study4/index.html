@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input으로 로그인 페이지 만들기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="LoginPage">
+            <form action="">
+                <div class="MainBox">
+                    <h2>Contact Us</h2>
+                    <p>Your Email</p>
+                    <input type="email" class="email" placeholder="email@example.com">
+                </div>
+                <div class="leftBox">
+                    <p>First name</p>
+                    <input type="text">
+                </div>
+                <div class="rightBox">
+                    <p>Last name</p>
+                    <input type="text">
+                </div>
+                <!-- Float로 공중에 뜬 애들 위치 잡아주려고 사용 -->
+                <div style="clear: both;"></div>
+                <div class="MainBox">
+                    <p>Message</p>
+                    <textarea class="area" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <footer>
+                    <select name="성별" id="" class="sex">
+                        <option value="" disabled selected>성별</option>
+                        <option value="">남성</option>
+                        <option value="">여성</option>
+                        <option value="">비공개</option>
+                    </select>  
+                    <div class="sub">
+                        <input type="checkbox" id="sub">
+                        <label for="sub">Subscribe</label>
+                    </div>
+                    <button type="submit">SEND</button>
+                </footer>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+
