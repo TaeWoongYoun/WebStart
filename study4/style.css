@@ -55,6 +55,7 @@ footer{
     width: 20%;
     margin-right: 10%;
     padding: 1%;
+    border: #000000 2px solid;
 }
 
 .sub{
